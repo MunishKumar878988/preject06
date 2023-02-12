@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--=====================css link===================================-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="header11">
+        <nav>
+            <h1><span style="color: black;">EDU</span>CATION</h1>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-xmark " onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="course.html">about</a></li>
+                    <li><a href="campus.html">campus</a></li>
+                    <li><a href="facilities.html">blog</a></li>
+                    <li><a href="form.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>worlds biggest university</h1>
+            <p>making website is now one of the easiest thing in the world. you just need to learn html ,css<br>
+                javascript and you are goos to go</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+
+
+    <!--this is section for foooter-->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elitlorem ipsum dolor sit amet, consectetur
+            adipiscing elitlorem ipsum dolor sit amet, consectetur adipiscing elitlorem ipsum dolor sit
+            amet, consectetur adipiscing elit</p>
+
+        <div class="icons">
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-facebook"></i>
+        </div>
+        <hr>
+        <p>made by munish donkal@2023</p>
+        <hr>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--ths is javascript========================-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
